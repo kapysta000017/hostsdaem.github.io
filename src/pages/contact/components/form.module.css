@@ -1,0 +1,69 @@
+.inner {
+  padding: 40px 37px 44px 38px;
+  background: #fffefe;
+  box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.2);
+  width: 625px;
+  border-radius: 10px;
+  font-family: "Medium";
+  font-size: 14px;
+  color: #686868;
+}
+.user {
+  display: flex;
+  gap: 30px;
+}
+.message {
+  font-family: "Medium";
+  padding: 15px 20px;
+  border-radius: 30px;
+  background: #f8f8f8;
+  border: 2px solid transparent;
+  max-width: 548px;
+  min-width: 548px;
+  height: 200px;
+  outline: none;
+  margin-top: 15px;
+  max-height: 200px;
+  min-height: 200px;
+  cursor: default;
+}
+.message:hover {
+  border-color: rgba(102, 78, 249, 0.8);
+  background: white;
+}
+.message:focus {
+  border-color: rgba(102, 78, 249, 0.8);
+  background: white;
+}
+.messageError {
+  font-family: "Medium";
+  padding: 15px 20px;
+  border-radius: 30px;
+  background: #f8f8f8;
+  border: 2px solid rgba(235, 87, 87, 1);
+  max-width: 548px;
+  min-width: 548px;
+  height: 200px;
+  outline: none;
+  margin-top: 15px;
+  max-height: 200px;
+  min-height: 200px;
+  cursor: default;
+}
+.button {
+  border-radius: 33px;
+  border: 0px solid transparent;
+  background: #664ef9;
+  margin: 40px auto 0px;
+  width: 200px;
+  height: 48px;
+  display: block;
+  color: white;
+  font-family: "Bold";
+}
+.messageTitle {
+  margin-top: 30px;
+}
+.labelTitle {
+  margin-bottom: 15px;
+}
