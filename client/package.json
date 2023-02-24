@@ -1,5 +1,6 @@
 {
   "name": "sdaemsa",
+  "homepage": "https://kapysta000017.github.io/hostsdaem.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,6 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build",
     "_server": "json-server -w public/db.json -p 3001",
     "_start": "concurrently \"npm run server\" \"npm run startclient\""
   },
@@ -51,6 +53,7 @@
     "classnames": "^2.3.2",
     "concurrently": "^7.6.0",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0",
     "react-hook-form": "^7.43.1",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.4.4",

@@ -13,7 +13,7 @@ export const fetchOneOption = createAsyncThunk(
   async (category: string | null, { rejectWithValue }) => {
     try {
       const option = await axios(
-        `http://localhost:3001/options?category=${category}`
+        `https://sdaem-json-server.onrender.com/options?category=${category}`
       )
       return option.data[0].moreOption
     } catch (error) {

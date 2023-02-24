@@ -12,7 +12,9 @@ export const fetchOneNewsBread = createAsyncThunk(
   "bread/fetchOneNews",
   async (id: string | undefined, { rejectWithValue }) => {
     try {
-      const news = await axios(`http://localhost:3001/news/${id}`)
+      const news = await axios(
+        `https://sdaem-json-server.onrender.com/news/${id}`
+      )
       return { name: news.data.title as string, link: `/news/${id}` }
     } catch (error) {
       const e = error as Error

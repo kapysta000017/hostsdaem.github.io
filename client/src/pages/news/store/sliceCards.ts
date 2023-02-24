@@ -15,7 +15,7 @@ export const fetchAllNews = createAsyncThunk(
   async (pageNumber: string | null, { rejectWithValue }) => {
     try {
       const news = await axios(
-        `http://localhost:3001/news?_page=${pageNumber}&_limit=9`
+        `https://sdaem-json-server.onrender.com/news?_page=${pageNumber}&_limit=9`
       )
       return news.data as New[]
     } catch (error) {

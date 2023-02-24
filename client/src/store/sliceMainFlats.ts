@@ -23,7 +23,7 @@ export const fetchAllFlats = createAsyncThunk(
   "mainPage/fetchAllFlats",
   async (_, { rejectWithValue }) => {
     try {
-      const flats = await axios("http://localhost:3001/flats")
+      const flats = await axios("https://sdaem-json-server.onrender.com/flats")
       return flats.data
     } catch (error) {
       const e = error as Error
@@ -38,7 +38,7 @@ export const fetchUpdateFlat = createAsyncThunk(
   async (element: Flat, { rejectWithValue }) => {
     try {
       const flats = await axios(
-        `https://jsonplaceholder.typicode.com/posts/${element.id}`,
+        `https://sdaem-json-server.onrender.com/posts/${element.id}`,
         {
           method: "PUT",
           data: {
