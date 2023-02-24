@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hostsdaem.github.io/static/css/main.59d57e3e.css",
-    "main.js": "/hostsdaem.github.io/static/js/main.0e446efa.js",
+    "main.js": "/hostsdaem.github.io/static/js/main.7ca9fa62.js",
     "static/media/back.png": "/hostsdaem.github.io/static/media/back.47bb46200dddb2f107ad.png",
     "static/media/bg.png": "/hostsdaem.github.io/static/media/bg.f4152b3ed21d530351e4.png",
     "static/media/backTitleOneNews.png": "/hostsdaem.github.io/static/media/backTitleOneNews.4b373db466e47087308e.png",
@@ -63,10 +63,10 @@
     "static/media/arrowPurple.svg": "/hostsdaem.github.io/static/media/arrowPurple.261c85459a83924c089e.svg",
     "static/media/point.svg": "/hostsdaem.github.io/static/media/point.6f2265412484a5e11dea.svg",
     "main.59d57e3e.css.map": "/hostsdaem.github.io/static/css/main.59d57e3e.css.map",
-    "main.0e446efa.js.map": "/hostsdaem.github.io/static/js/main.0e446efa.js.map"
+    "main.7ca9fa62.js.map": "/hostsdaem.github.io/static/js/main.7ca9fa62.js.map"
   },
   "entrypoints": [
     "static/css/main.59d57e3e.css",
-    "static/js/main.0e446efa.js"
+    "static/js/main.7ca9fa62.js"
   ]
 }
