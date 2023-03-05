@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build && gh-pages -d build",
     "_server": "json-server -w public/db.json -p 3001",
-    "_start": "concurrently \"npm run server\" \"npm run startclient\""
+    "_start": "concurrently \"npm run _server\" \"npm run start\""
   },
   "eslintConfig": {
     "extends": [
